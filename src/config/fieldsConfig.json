@@ -1,0 +1,18 @@
+{
+  "NameDetails": {
+    "Questions": ["Name", "PhoneNumber"],
+    "props": ["Name, PhoneNumber"]
+  },
+  "ReviewDetails": {
+    "components": ["NameDetails", "CompanyDetails"],
+    "config": {
+      "NameDetails" : {
+        "Name" : "basicDetails.Name",
+        "PhoneNumber" : "basicDetails.PhoneNumber"
+      },
+      "CompanyDetails" : {
+        "name" : "companyDetails.name"
+      }
+    }
+  }
+}

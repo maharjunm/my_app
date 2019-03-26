@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+    margin-left: 45%
+}
+
+
+.list {
+    display: inline-flex;
+    margin-left: 50px
+}
+
+.item {
+    margin-left: 150px;
+    font-size: 20px;
+    color: green;
+    border: 2px solid #666;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+    width: 29px;
+    height: 24px;
+}
+
+.basic_info {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.form_header {
+    margin-left: 5%;
+}
+
+.item_background {
+    background: lightgray;
+}
+
+.supplier_details {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.tab {
+    display: inline-flex;
+}
+
+.input_name {
+    margin-left: 65px;
+}
+
+.input_box {
+    margin-bottom: 10px;
+}
+
+.tab_name {
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.submit_button {
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    color: white;
+    background: green;
+}
