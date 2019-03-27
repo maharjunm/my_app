@@ -20,4 +20,4 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- script: docker build -f Dockerfile -t contoso/myjavascriptapp:$(Build.BuildId)
+- script: docker build docker build -t test-app .
