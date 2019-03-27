@@ -4,7 +4,7 @@
     "props": ["Name, PhoneNumber"]
   },
   "ReviewDetails": {
-    "components": ["NameDetails", "CompanyDetails"],
+    "components": ["CompanyDetails", "NameDetails"],
     "config": {
       "NameDetails" : {
         "Name" : "basicDetails.Name",
