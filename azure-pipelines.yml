@@ -24,10 +24,7 @@ steps:
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
-      **\*.js
-      **\*.json
-      **\*.jsx
-      public/*.*
+      **\*.*
       Dockerfile
       package.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
