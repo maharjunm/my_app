@@ -24,7 +24,7 @@ steps:
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
-      public\*.*
+      public/*.*
       src/**/*.*
       Dockerfile
       package.json
